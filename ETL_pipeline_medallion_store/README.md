@@ -39,4 +39,4 @@ Result of the project is an optimized ETL-pipeline built using Databricks declar
 ##### 🥇Gold Tables
 - gold.dim_customer: 395 rows
 - gold.fact_order: 900 rows
-- gold.dim_date: 4334 rows (changes depenging on running date)
+- gold.dim_date: 4334 rows (changes depending on running date)
