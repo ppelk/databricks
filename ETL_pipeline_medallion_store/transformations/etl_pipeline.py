@@ -12,7 +12,7 @@ import json
 # Declare file path and file names (stored in config.json)
 filepath = "/Workspace/Users/pepelk@utu.fi/databricks/ETL_pipeline_medallion_store/data"
 
-with open("/Workspace/Users/pepelk@utu.fi/databricks/ETL_pipeline_medallion_store/etl/config.json") as config_file:
+with open("/Workspace/Users/pepelk@utu.fi/databricks/ETL_pipeline_medallion_store/data/config.json") as config_file:
     files = json.load(config_file)["files"]
 
 
@@ -121,7 +121,7 @@ def silver_customers():
 
 
 @dp.table(
-        name="gold.customers",
+        name="gold.dim_customer",
         comment="Gold business-logic validated data",
         table_properties={
             "quality": "gold"
