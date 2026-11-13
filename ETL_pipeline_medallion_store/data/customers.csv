@@ -1,0 +1,396 @@
+id,batch_id,customer_code,first_name,last_name,email,phone,country_raw,status_raw,signup_date_text,last_order_text,age_raw,credit_limit_text,tags_raw
+1,4,C-937,Chandler,Herman,,(242) 823-6079,Germany,active,2024-11-07,09/11/2025,28,"2.931,28",prospect
+2,5,C-091,Eda,,,(247) 395-0555,germany,inactive,2019-11-10,21/06/2020,27,"5.381,06",vip
+3,19,C-310,Elfrieda,Von,elfrieda.von89@example.org,(413) 859-0875,United States,inactive,2024-12-04,18/04/2025,85,"8.763,49",do-not-call churn
+4,19,C-085,Jordan,Hoppe,jordan.hoppe@example.org,,Germany,,2020-11-02,30/05/2025,82,"6.642,84",churn
+5,20,C-436,Annamae,Pagac,annamae.pagac36@example.net,(668) 550-3820,U.S.,inactive,2016-12-21,28/01/2018,96,"5.029,09",lead do-not-call
+6,11,C-011,Ethyl,Bogan,ethyl.bogan76@example.net,(595) 536-4965,France,active,2016-10-26,05/11/2019,73,"6.530,49",b2b newsletter wholesale
+7,6,C-000,Jacquelyn,Blanda,jacquelyn_blanda55@example.com,(222) 630-0384, DE,Active,2022-11-04,09/11/2023,55,"6.385,47",news-letter partner
+8,2,C-321,Verdie,Renner,verdie.renner@example.org,(240) 215-6945,USA,inactive,2022-04-04,10/09/2024,33,"1.686,71",prospect churned
+9,2,C-029,Bryant,Wilkinson,bryant.wilkinson@example.com,(662) 774-0604,US,,2016-11-24,24/01/2018,20,"3.380,64",churn
+10,22,C-921,Kaci,Leffler,kaci_leffler88@example.org,(815) 527-4004,USA,active,2022-02-28,12/05/2023,81,"6.744,37",partner
+11,18,C-148,Ethan,Skiles,ethan.skiles53@example.net,,USA,inactive,2023-02-26,06/06/2023,23,"4.635,45",dnc
+12,23,C-109,Annamarie,Marks,annamarie_marks82@example.net,(772) 221-7186,U.S.,active,2021-05-28,01/04/2023,55,"7.288,49",prospect churn b2b
+13,4,C-461,Russ,Schowalter-Lowe,,(474) 567-0678,GER,active,2019-09-30,27/01/2020,89,"3.740,87",dnc
+14,18,C-688,Brad,Wisoky,brad_wisoky80@example.com,(826) 655-9577,DE,Active,2023-02-22,17/04/2024,26,"4.652,35",wholesale do-not-call prospect
+15,15,C-244,Iliana,Abbott,iliana.abbott44@example.org,(859) 583-7381,Germany,active,2017-03-25,20/01/2025,76,"4.594,75",partner
+16,5,C-545,Weston,Bogan,weston.bogan20@example.com,(800) 376-3660,US,,2018-07-16,15/04/2019,36,"5.895,90",wholesale churn
+17,18,C-929,Horace,Becker,horace.becker81@example.net,(400) 588-0234,US,active,2016-03-11,13/02/2024,27,"1.758,38",do-not-call dnc
+18,8,C-795,Aniya,Schiller,aniya_schiller77@example.org,(788) 382-1192,DE,active,2024-04-28,12/08/2024,46,"3.333,86",wholesale
+19,1,C-792,Pablo,Beahan,pablo_beahan@example.net,(749) 529-1605,US,active,2016-11-02,19/01/2018,62,"5.401,50",prospect newsletter partner
+20,22,C-421,,Auer,,(668) 418-1199,germany,,2024-08-17,01/10/2024,99,"5.153,80",wholesale partner b2b
+21,15,C-284,Leone,Dickinson,leone_dickinson53@example.net,(652) 611-6887,USA,CLOSED,2021-09-22,09/07/2025,64,"9.832,08",news-letter churn lead
+22,2,C-306,,Connelly,,(558) 200-4539,US,,2019-07-28,02/02/2022,79,"8.885,47",b2b newsletter
+23,22,C-066,Alan,Schumm,alan_schumm10@example.net,(912) 518-1710, DE,active,2019-03-08,27/09/2022,81,"2.760,12",do-not-call
+24,24,C-690,Winston,Treutel,winston_treutel@example.org,,France,closed,2017-03-29,24/10/2024,90,"0.324,85",churned b2b
+25,7,C-279,Rickey,Stanton,rickey_stanton@example.org,(413) 213-9811,United States,,2020-07-29,03/02/2022,92,"2.265,43",news-letter
+26,22,C-699,Raymond,Bernhard,raymond.bernhard@example.net,(847) 218-6404,Germany,active,2016-06-14,21/08/2019,62,"2.059,77",churn lead news-letter
+27,23,C-985,Trenton,Ritchie,,(655) 780-0047,Germany,,2020-06-18,22/10/2021,74,"7.711,71",newsletter lead partner
+28,7,C-276,Samson,Littel-Hauck,samson.littel-hauck64@example.net,(635) 711-2455,Germany,inactive,2023-07-22,10/05/2024,55,"3.126,00",newsletter churn
+29,20,C-491,Evans,Wuckert,evans.wuckert@example.net,(808) 337-8853,USA,Active,2022-02-07,18/06/2023,31,"4.542,43",lead vip
+30,4,C-487,Reilly,Veum,reilly.veum@example.com,(700) 831-3461,GER,active,2019-10-20,12/04/2025,65,"8.052,08",do-not-call news-letter
+31,24,C-372,Camilla,Tromp-Altenwerth,camilla.tromp-altenwerth@example.net,(336) 806-4325,DE,inactive,2020-09-11,22/07/2023,78,"8.476,64",news-letter lead prospect
+32,11,C-511,Emely,Jones,emely.jones96@example.org,(569) 786-8424,USA,Active,2018-06-19,04/10/2023,83,"1.352,34",churn partner dnc
+33,17,C-799,Berniece,Hagenes,berniece.hagenes53@example.net,(652) 258-8722,US,Inactive,2020-12-13,04/09/2021,88,"7.617,54",vip churn b2b
+34,17,C-439,Alfreda,Green,alfreda.green59@example.com,(903) 692-1083,DE,inactive,2023-07-07,31/10/2023,27,"4.690,51",partner
+36,3,C-378,,Stracke,,,US,CLOSED,2022-06-19,25/07/2025,61,"7.883,37",wholesale
+37,18,C-711,Gerry,Bogan,gerry_bogan44@example.net,(278) 647-8199,GER,,2020-08-07,19/10/2024,45,"1.209,24",newsletter churned
+38,24,C-727,Monroe,Lind,monroe_lind22@example.com,(903) 506-4913,DE,inactive,2017-05-21,26/09/2021,30,"9.780,33",partner
+39,3,C-443,Malvina,Hoppe,malvina.hoppe74@example.net,(587) 728-7154,FR,Active,2022-07-04,09/11/2023,24,"7.254,30",churn do-not-call
+40,21,C-325,Roger,Gutkowski,roger.gutkowski11@example.net,(225) 486-9673,DE,Active,2021-06-08,02/09/2022,88,"4.733,46",churned
+41,14,C-939,Simeon,Ferry,simeon_ferry@example.com,,U.S.,inactive,2024-10-05,08/04/2025,44,"6.764,63",partner
+42,13,C-132,Alejandra,Goodwin,alejandra.goodwin61@example.org,(811) 350-6517,FRANCE,inactive,INVALID_DATE,INVALID_DATE,56,"2.842,06",wholesale news-letter
+43,3,C-859,,Gerlach,,(262) 817-5908,Germany,,INVALID_DATE,INVALID_DATE,44,"9.585,64",b2b partner
+44,10,C-329,Arlie,Von,arlie.von5@example.net,(897) 575-6531,United States,closed,2020-08-04,15/11/2025,94,"9.708,99",dnc do-not-call
+45,2,C-395,Prince,Johns,,(904) 810-6719,United States,active,2019-08-04,11/02/2024,60,"9.775,06",lead
+46,16,C-609,Yessenia,Boehm,,(247) 312-6493,US,Active,INVALID_DATE,INVALID_DATE,45,"5.530,93",churned
+47,10,C-240,,Langworth,,(362) 407-0578,France,active,2022-05-19,01/01/2023,50,"2.641,89",churn dnc do-not-call
+48,14,C-128,,Bosco,,(796) 730-0135,France,active,2019-04-21,02/06/2025,70,"9.496,73",newsletter
+49,2,C-918,Sage,Hodkiewicz,sage.hodkiewicz@example.com,(242) 663-2938,US,active,2017-10-31,10/04/2025,79,"6.311,10",partner
+50,12,C-997,Keith,Price,keith.price@example.com,(453) 493-1178,FR,Inactive,2020-11-11,31/05/2024,34,"7.582,92",churn wholesale b2b
+51,9,C-183,Andrea,Franecki,andrea_franecki7@example.com,(244) 435-2693,U.S.,closed,2024-02-29,12/04/2024,92,"8.396,05",churned
+52,11,C-648,,Rau,,(923) 834-4118,U.S.,actv,2023-09-11,02/01/2024,95,"6.616,34",news-letter b2b
+54,5,C-622,Bonita,Kessler,bonita_kessler83@example.com,(820) 275-8313, DE,Active,2017-05-11,15/07/2020,83,"0.704,89",churned lead
+55,19,C-173,Viva,,,(697) 795-9644,United States,active,2020-02-10,02/10/2023,70,"1.985,50",do-not-call churned prospect
+56,18,C-702,Deontae,Jacobi,deontae_jacobi86@example.org,,FR,actv,2016-12-23,25/01/2017,27,"8.776,67",partner prospect churn
+57,16,C-624,Jayde,Brown,jayde.brown@example.net,(724) 944-5472,DE,Active,2019-11-01,25/06/2020,95,"2.413,58",news-letter newsletter
+58,23,C-649,Alvena,Steuber,alvena_steuber79@example.com,(302) 455-1645, DE,inactive,2018-08-23,21/04/2024,72,"4.488,31",dnc news-letter churned
+59,18,C-492,Americo,Waelchi,americo_waelchi3@example.com,,DE,active,2017-09-02,30/09/2025,52,"8.624,19",dnc partner
+60,11,C-928,Anne,Okuneva,anne.okuneva72@example.net,(311) 701-4325,FR,active,2024-07-23,20/11/2025,86,"1.293,80",vip
+61,3,C-297,Lacey,Will,lacey.will@example.com,(994) 689-2743,France,,2017-12-15,07/09/2021,64,"5.458,61",churned news-letter wholesale
+62,9,C-872,Rowena,Hills-Nader,rowena.hills-nader@example.net,(882) 577-8714,United States,closed,2021-12-18,15/02/2023,80,"4.052,44",dnc
+63,7,C-729,Aurore,Friesen,aurore_friesen67@example.net,(487) 415-8722,FR,inactive,2020-04-03,25/10/2025,55,"0.260,79",churned
+64,2,C-389,Billie,Ryan,billie.ryan@example.net,(597) 458-5653,FRANCE,CLOSED,INVALID_DATE,INVALID_DATE,56,"6.327,18",churned wholesale b2b
+65,9,C-446,Haven,O'Keefe,haven.okeefe7@example.org,,US,closed,2023-02-17,08/07/2023,47,"6.696,42",prospect
+66,5,C-674,Eudora,Collier,eudora.collier98@example.net,(356) 973-0174,FRANCE,active,2018-07-24,05/07/2019,34,"3.115,82",partner
+68,15,C-186,Evert,Lockman,evert_lockman73@example.org,(414) 898-2658,U.S.,,2022-04-11,16/04/2023,38,"0.431,38",dnc
+69,18,C-543,Orval,Rolfson,orval.rolfson@example.net,(356) 339-3125,United States,Inactive,2023-01-17,12/06/2024,27,"0.393,49",churn
+70,5,C-116,Brigitte,Schimmel,brigitte.schimmel45@example.net,(418) 270-4198,FR,,2021-08-09,22/10/2023,38,"8.996,86",dnc newsletter wholesale
+71,15,C-273,Cortez,Bednar,cortez.bednar88@example.net,(970) 316-5928,USA,active,2019-05-05,18/06/2020,34,"2.547,75",partner churned
+72,21,C-684,Nathanael,Conroy,nathanael_conroy@example.org,(637) 221-3975,DE,closed,2016-02-22,12/05/2017,64,"3.689,40",vip
+73,2,C-107,Kristy,Dietrich,kristy.dietrich73@example.com,(310) 791-7246,germany,Active,2022-11-17,17/03/2023,20,"6.052,89",news-letter
+74,23,C-088,Aliyah,Bechtelar,,(595) 887-5411,US,active,2018-10-07,26/07/2022,91,"1.427,27",vip news-letter
+75,8,C-080,,Moen,,(272) 786-2682, DE,active,2023-03-05,07/08/2023,25,"5.141,34",b2b
+76,15,C-158,Rubye,Gerlach,rubye.gerlach@example.org,(636) 996-6718,FR,active,2018-05-29,29/08/2025,83,"6.998,76",prospect
+77,2,C-126,Neha,Bechtelar,neha.bechtelar@example.org,(483) 823-0258,GER,inactive,2023-05-24,20/03/2024,61,"3.545,47",newsletter
+78,19,C-638,Sarina,Davis,,(374) 418-5940,France,active,2021-11-09,05/08/2023,97,"7.051,67",vip
+79,17,C-291,Izabella,Welch,izabella_welch@example.org,(710) 386-7838,France,,2016-04-12,28/12/2023,43,"3.989,90",b2b do-not-call
+80,2,C-595,Kelsi,Hamill,kelsi_hamill@example.net,(835) 421-2001,DE,active,2021-10-23,10/12/2023,89,"2.723,88",vip b2b
+81,6,C-084,Madelyn,Bogan,madelyn_bogan@example.net,(770) 756-1310,US,closed,2021-03-01,27/09/2023,87,"2.523,60",lead
+82,20,C-332,Oda,Bartoletti,,(259) 725-6134,France,active,2023-01-23,13/07/2025,95,"7.590,16",do-not-call prospect
+83,3,C-780,Amiya,Kiehn,,(873) 652-5126,DE,inactive,2016-02-27,03/07/2017,24,"4.232,98",lead vip b2b
+84,16,C-101,Odessa,Beatty,,,Germany,Active,2023-11-17,25/12/2023,42,"1.719,23",do-not-call
+85,22,C-704,Jeramy,Homenick,jeramy.homenick@example.net,(216) 640-2764,Germany,,2017-12-15,30/06/2019,59,"8.681,61",churned news-letter
+86,15,C-975,Jerrell,Terry,jerrell_terry13@example.com,(480) 235-9035,US,actv,2018-07-03,30/04/2024,31,"0.010,41",b2b newsletter news-letter
+87,20,C-385,Drake,Pfeffer,drake_pfeffer77@example.net,(571) 714-5114,Germany,inactive,2021-11-11,08/10/2022,92,"4.127,27",do-not-call dnc
+88,7,C-757,Renee,Keebler,renee_keebler@example.org,(956) 395-6580,U.S.,active,2018-03-11,13/05/2020,71,"7.653,76",churn lead partner
+89,12,C-149,Carmel,Fadel-Lubowitz,carmel_fadel-lubowitz@example.net,(944) 698-0125,US,inactive,2016-10-18,25/11/2020,95,"4.657,53",lead wholesale
+90,3,C-455,Imani,Kuhn,imani_kuhn@example.com,,US,active,2018-10-19,05/04/2024,33,"4.947,91",lead
+92,18,C-801,Frederique,Rempel,frederique.rempel71@example.org,(724) 234-3145,FR,CLOSED,2021-10-20,02/11/2025,65,"9.421,23",partner wholesale
+93,14,C-326,Dillon,Smith,dillon.smith49@example.org,(775) 313-9785,germany,Active,2018-02-15,25/04/2020,79,"0.600,72",do-not-call newsletter
+94,17,C-720,,,,(712) 243-0761,U.S.,active,2022-11-08,19/04/2025,64,"7.705,15",news-letter churn lead
+95,4,C-473,Vincenza,Hamill,vincenza.hamill@example.net,(504) 217-8475,USA,active,2022-09-07,10/09/2022,81,"4.473,26",vip
+96,12,C-242,Lavina,Hermann,lavina.hermann@example.org,(912) 567-9221,US,inactive,2020-11-03,26/10/2024,44,"6.990,91",prospect wholesale news-letter
+97,19,C-583,Cleta,Schaden,cleta.schaden@example.com,(405) 526-0156,US,Active,2019-10-10,04/07/2020,26,"0.504,30",news-letter partner churned
+98,4,C-835,Marcelino,Wunsch,marcelino_wunsch@example.net,(383) 636-4276,Germany,Active,INVALID_DATE,INVALID_DATE,76,"6.536,46",do-not-call vip dnc
+99,9,C-662,Fern,Wyman,fern_wyman10@example.com,,Germany,active,2019-02-14,30/01/2022,20,"9.381,89",do-not-call newsletter
+100,13,C-881,Fredy,O'Reilly,fredy.oreilly28@example.com,(535) 684-5850,us,inactive,2023-06-11,01/12/2024,79,"9.938,90",newsletter vip wholesale
+101,12,C-645,Roel,Gottlieb,roel_gottlieb@example.net,(746) 384-6690,France,closed,2016-11-17,12/04/2018,100,"8.138,03",dnc b2b
+102,20,C-259,Katherine,Yundt,katherine_yundt4@example.org,,US,inactive,2017-07-11,01/12/2019,48,"0.606,60",churn news-letter
+103,3,C-233,Eileen,Fadel-Muller,eileen.fadel-muller@example.net,(628) 335-7245,germany,inactive,2024-04-13,21/07/2024,25,"9.711,37",newsletter do-not-call news-letter
+104,1,C-568,Hardy,Dare,hardy_dare@example.net,(256) 391-1605,US,ACTIVE,2024-05-19,07/07/2025,98,"4.318,46",b2b newsletter dnc
+105,8,C-133,Dedrick,Schulist,dedrick.schulist@example.org,(742) 516-5492,US,Inactive,2022-05-06,19/06/2025,56,"3.528,95",lead churned partner
+106,8,C-463,Mafalda,Harvey,mafalda_harvey@example.org,(980) 471-1339,USA,Inactive,2019-06-06,23/12/2019,100,"8.381,97",dnc prospect newsletter
+107,4,C-410,Kayleigh,Welch,kayleigh.welch@example.org,(453) 817-2451,Germany,inactive,2019-05-06,05/11/2022,79,"4.450,53",partner churned dnc
+108,15,C-657,Ashtyn,Nikolaus,ashtyn_nikolaus@example.org,,US,closed,2016-12-15,22/12/2017,85,"7.557,20",vip churn
+109,1,C-623,Valentina,Cole,valentina.cole45@example.org,,DE,Active,2019-10-24,05/01/2023,92,"3.478,74",churn
+110,10,C-269,Quincy,Wintheiser,,(864) 546-4869,USA,ACTIVE,2018-12-25,11/08/2025,74,"3.847,28",churn wholesale
+111,8,C-685,Rylee,King,rylee.king@example.com,(700) 237-3267,US,active,2022-02-19,16/01/2024,75,"7.518,29",prospect wholesale
+112,16,C-401,Elroy,Schoen,elroy.schoen@example.net,(517) 282-1283,germany,active,2019-08-13,23/09/2021,83,"5.842,95",b2b
+113,15,C-499,Shaun,Hermann,,,DE,Active,2020-11-13,18/03/2024,61,"7.655,48",b2b vip
+114,22,C-984,Kaylin,Hammes-Flatley,kaylin.hammes-flatley@example.net,(293) 501-4611,germany,,2024-07-29,05/07/2025,99,"9.830,03",churn
+115,20,C-380,Nels,White,nels.white13@example.com,(808) 486-1531,GER,inactive,2024-07-17,12/10/2024,39,"2.163,05",churn wholesale do-not-call
+117,24,C-908,Marjorie,Goldner,marjorie_goldner77@example.com,(676) 257-9552,United States,inactive,2022-09-29,08/02/2024,68,"4.185,97",b2b prospect churn
+118,6,C-062,Jessy,Kuvalis,jessy_kuvalis@example.org,(846) 499-8544,US,CLOSED,2023-07-17,03/11/2025,81,"0.489,05",prospect newsletter news-letter
+119,2,C-851,Colin,Hegmann,colin_hegmann@example.com,(900) 826-6027,FR,active,2019-08-06,27/09/2019,35,"4.589,42",do-not-call
+120,9,C-374,Ahmad,West,ahmad_west71@example.org,(340) 236-7562,US,active,2020-03-12,03/12/2020,95,"5.829,96",churned b2b
+121,16,C-989,Simone,Grant,simone_grant92@example.org,(695) 466-5075,FR,closed,2018-09-22,04/03/2023,49,"0.635,18",wholesale partner
+122,13,C-633,Quentin,,,,FR,inactive,2019-09-28,27/12/2020,36,"3.200,04",lead wholesale
+123,11,C-068,Jesse,Schulist,jesse_schulist72@example.com,(210) 223-7521,USA,active,2016-11-18,05/11/2024,29,"8.314,69",vip wholesale churned
+124,16,C-707,Caesar,Lueilwitz,caesar_lueilwitz12@example.org,(757) 639-4998,USA,active,2022-08-03,25/09/2023,93,"4.939,61",do-not-call news-letter newsletter
+125,19,C-991,Dean,Bailey,dean.bailey17@example.org,(312) 486-4697,Germany,closed,2024-02-26,19/07/2024,37,"0.434,56",do-not-call
+126,2,C-842,Guiseppe,Romaguera,,(349) 226-4015,France,ACTIVE,2024-11-19,24/12/2024,39,"2.740,84",churn vip
+127,23,C-405,Shaun,Bayer,shaun.bayer@example.org,(202) 971-6649,GER,Active,2020-06-30,08/11/2023,72,"2.318,68",partner news-letter
+128,13,C-361,,Lubowitz,,(784) 771-1554,Germany,active,2019-07-10,06/08/2019,57,"8.250,90",newsletter news-letter
+129,17,C-384,Meggie,Lowe,meggie.lowe@example.net,(271) 995-7858,FR,ACTIVE,2022-02-17,07/08/2024,97,"6.130,88",churn newsletter vip
+130,19,C-462,Evie,Beier,evie.beier60@example.org,(381) 725-2932,DE,inactive,2018-09-07,21/07/2022,57,"6.780,72",vip
+131,17,C-963,Allan,Pacocha,allan.pacocha91@example.com,(817) 565-0808,FR,Active,2020-03-05,31/08/2025,60,"5.303,06",vip
+132,7,C-519,Lorenzo,Rohan,lorenzo.rohan26@example.net,(248) 798-3063,germany,active,2022-06-16,06/10/2024,78,"2.103,43",news-letter
+133,10,C-017,Danika,Langworth,danika_langworth@example.net,,DE,Active,2021-01-08,14/10/2024,47,"8.256,65",lead newsletter partner
+134,19,C-388,Turner,Grant,turner.grant12@example.com,(354) 645-2897,US,active,2021-06-12,21/05/2024,64,"6.743,23",vip
+135,21,C-170,Opal,Lowe,opal_lowe20@example.net,(988) 785-9047,France,closed,2023-04-25,03/05/2025,23,"6.615,51",churned vip
+136,13,C-226,Vernice,Considine,vernice_considine89@example.org,(396) 864-3571,us,inactive,2020-06-27,03/03/2022,64,"6.481,02",newsletter churned
+139,22,C-852,Kiana,Hermann,kiana_hermann@example.com,(547) 688-5069,France,Inactive,2021-12-08,22/01/2023,60,"7.690,65",vip
+140,6,C-794,Alayna,Hettinger,alayna_hettinger@example.net,(952) 608-3416,germany,active,2018-08-03,06/10/2025,43,"8.939,45",churned wholesale
+142,15,C-811,Sara,Wehner,sara.wehner89@example.com,,DE,inactive,2021-09-09,31/10/2025,32,"5.301,29",do-not-call prospect partner
+144,21,C-728,Josephine,Miller,josephine_miller10@example.net,(551) 915-0763,US,inactive,2023-11-19,11/01/2025,80,"7.425,56",dnc churn
+145,9,C-903,,Schumm,,,USA,Inactive,2018-06-25,12/08/2024,35,"3.210,88",dnc do-not-call newsletter
+146,17,C-694,Wilhelmine,Veum,wilhelmine_veum0@example.org,,US,Inactive,2022-12-19,25/06/2023,75,"0.488,31",lead news-letter
+148,21,C-354,,Effertz,,(801) 652-0193,USA,inactive,2018-11-17,19/11/2025,95,"6.151,41",churned
+149,22,C-470,,Okuneva,,,germany,active,2023-04-30,09/08/2023,99,"4.860,21",partner
+150,19,C-286,Triston,Huel,triston_huel@example.org,(841) 274-2689,FR,active,2017-04-02,18/10/2025,94,"9.398,21",churned b2b dnc
+152,8,C-510,,Paucek,,,Germany,closed,2024-07-10,15/12/2024,80,"1.284,94",do-not-call dnc
+153,11,C-371,Einar,Senger,einar_senger@example.org,(917) 690-5335,United States,CLOSED,2018-05-31,08/04/2020,49,"9.338,25",dnc
+154,23,C-312,Hoyt,Nicolas,hoyt_nicolas47@example.com,(901) 367-5211,DE,Inactive,2017-08-04,24/08/2021,98,"4.289,38",wholesale vip
+155,8,C-689,Alessia,Rath,alessia_rath68@example.net,(758) 319-0434,USA,active,2022-11-19,08/05/2023,82,"9.425,79",partner newsletter dnc
+156,4,C-967,Crystal,,,(897) 859-3311,DE,closed,2019-12-15,21/06/2020,37,"8.664,58",newsletter churn
+157,16,C-559,Branson,,,(705) 394-7367,France,actv,2019-01-01,29/05/2025,53,"3.055,88",news-letter
+158,20,C-890,Evan,Robel-Kling,evan_robel-kling@example.net,(262) 777-5550,DE,inactive,2024-08-07,15/02/2025,46,"5.568,85",b2b news-letter
+159,16,C-185,Alessandra,Terry,alessandra.terry86@example.com,(525) 466-9552,USA,closed,2021-05-24,16/07/2025,40,"5.585,45",wholesale
+160,6,C-655,Lori,Berge,lori.berge86@example.org,(783) 517-3741,GER,Active,2017-09-01,06/06/2018,82,"1.234,85",newsletter vip
+161,2,C-744,,Rutherford,,(453) 739-8707,United States,active,2021-06-22,29/03/2023,64,"6.740,25",news-letter lead
+162,14,C-763,Melody,,,,FR,Inactive,2024-05-30,02/11/2025,77,"2.016,03",wholesale dnc vip
+163,20,C-586,Adrain,Runte,adrain_runte84@example.net,(445) 307-3481,FR,CLOSED,2024-03-28,14/03/2025,50,"6.401,33",dnc
+166,20,C-402,Esta,Klocko,esta_klocko96@example.org,(775) 468-9039,US,Active,2020-08-22,17/05/2022,41,"9.215,61",lead
+168,1,C-415,Bertrand,Graham-Grant,bertrand.graham-grant14@example.net,(585) 269-4529,France,closed,2024-11-09,26/12/2025,93,"5.000,04",churned
+169,5,C-830,Camilla,O'Connell,camilla_oconnell@example.net,(337) 538-9799,FR,inactive,2022-10-23,21/06/2024,36,"0.367,41",churned churn prospect
+170,10,C-136,Jeremiah,Walter,jeremiah.walter75@example.com,(593) 708-3329,US,inactive,2016-12-31,17/09/2021,50,"9.111,94",do-not-call
+171,8,C-479,Lyle,,,(289) 610-9331, DE,actv,2021-02-05,26/03/2021,26,"5.375,23",news-letter
+172,11,C-902,Harley,,,(870) 305-5113,DE,inactive,2023-12-04,25/09/2024,71,"6.483,10",churn lead partner
+173,9,C-534,Tanner,,,(711) 803-8079,DE,Active,2018-06-21,03/09/2021,58,"9.245,93",vip news-letter
+176,15,C-072,Rosalind,Ledner,rosalind.ledner@example.net,,USA,inactive,2022-09-25,19/03/2025,56,"8.445,46",churn
+179,8,C-845,Carl,Harris,,(569) 914-4652,USA,closed,2019-09-30,07/01/2025,87,"4.569,75",partner
+181,8,C-525,Paul,,,(248) 956-3152,United States,ACTIVE,2022-08-13,14/10/2022,84,"3.502,57",lead news-letter wholesale
+182,19,C-808,Landen,Grant,landen.grant64@example.com,(801) 897-7942,DE,CLOSED,2020-11-14,19/08/2023,62,"2.169,37",lead news-letter b2b
+183,12,C-375,,Casper,,(663) 240-8186,France,active,2021-04-22,08/03/2025,85,"4.102,08",vip
+185,5,C-605,Alejandro,Franey,alejandro.franey@example.org,(335) 914-6314,US,closed,INVALID_DATE,INVALID_DATE,26,"1.122,22",prospect
+187,4,C-555,Gavin,Gislason,gavin.gislason@example.net,(907) 574-8058,United States,active,2024-06-12,14/04/2025,69,"5.206,56",dnc
+188,4,C-093,Dameon,,,(712) 742-5964,USA,closed,2021-04-09,18/01/2025,46,"5.685,69",wholesale partner
+189,13,C-425,Ellie,Greenfelder,ellie_greenfelder@example.org,(728) 705-8361,Germany,CLOSED,2020-10-14,15/04/2021,66,"4.855,96",dnc partner b2b
+190,6,C-165,Mercedes,Hickle,mercedes_hickle48@example.com,(932) 267-6983,FR,Active,2018-10-12,27/04/2022,35,"7.714,11",b2b vip
+191,14,C-206,Junius,Trantow,junius_trantow93@example.net,,Germany,Active,2024-02-25,28/08/2024,20,"8.513,96",b2b
+192,22,C-847,Danika,Dietrich,danika_dietrich@example.net,(693) 881-3490,FR,,2024-02-13,12/08/2025,57,"6.851,37",wholesale
+193,19,C-909,Micah,Schuster,micah.schuster83@example.net,(338) 771-3863, DE,closed,2020-09-14,23/08/2022,30,"1.550,72",b2b vip wholesale
+194,20,C-488,Danyka,Heidenreich,danyka.heidenreich92@example.com,,USA,active,2020-09-06,26/07/2025,99,"8.075,41",newsletter partner
+195,16,C-993,Jadyn,,,(917) 239-4323,DE,ACTIVE,2017-08-06,08/11/2018,75,"1.617,24",do-not-call churned dnc
+196,11,C-940,Gerhard,Donnelly,gerhard_donnelly@example.org,(879) 317-4541,US,active,2019-07-19,26/11/2023,66,"1.278,91",do-not-call newsletter
+198,20,C-784,Daron,Cruickshank,daron_cruickshank68@example.org,,United States,Active,2017-07-30,18/06/2022,98,"9.520,68",prospect churned
+199,20,C-108,Colleen,Donnelly,colleen.donnelly37@example.com,(762) 940-1220,U.S.,inactive,2024-05-09,09/07/2024,58,"4.103,00",news-letter
+201,24,C-497,Darrell,Lehner,darrell_lehner38@example.org,(304) 944-5973,germany,Active,2019-09-22,28/03/2024,46,"1.812,77",partner
+202,16,C-767,Alexandra,Leffler,alexandra.leffler@example.net,,USA,Active,2018-03-25,17/07/2025,71,"5.239,87",vip churned
+203,3,C-177,Milan,,,(689) 324-1102,France,inactive,2017-01-24,22/04/2025,38,"0.659,52",prospect
+204,10,C-010,Wyatt,Farrell,wyatt.farrell@example.org,(945) 523-1914,USA,ACTIVE,2023-12-25,07/12/2025,38,"3.815,69",churned partner churn
+205,21,C-745,Herbert,Kreiger,herbert_kreiger@example.org,(389) 657-8140,US,ACTIVE,2022-10-07,15/04/2025,26,"8.392,62",b2b vip
+206,3,C-125,Kylie,Schinner,kylie_schinner8@example.net,(733) 289-7185,USA,active,2020-12-06,19/11/2025,71,"7.609,28",vip lead churn
+207,15,C-293,Cordie,Treutel-Frami,cordie_treutel-frami@example.com,(990) 351-0795,DE,actv,2021-05-30,04/02/2025,50,"3.352,04",lead newsletter partner
+208,12,C-577,Chandler,Mann,chandler_mann17@example.net,(714) 439-4986,FR,Inactive,INVALID_DATE,INVALID_DATE,90,"2.257,72",partner prospect b2b
+209,5,C-927,Demarcus,Sporer,demarcus.sporer@example.org,(486) 700-1560,DE,active,2018-01-24,23/06/2020,68,"2.539,77",b2b newsletter prospect
+210,22,C-821,Jayson,Wilkinson,jayson_wilkinson54@example.com,(746) 590-0834,US,active,2023-07-01,29/02/2024,65,"1.104,59",dnc
+211,5,C-942,Patience,Medhurst,patience.medhurst@example.com,(607) 646-5397,France,active,INVALID_DATE,INVALID_DATE,74,"7.443,61",vip
+212,23,C-646,Quinten,Ruecker,quinten.ruecker@example.com,(837) 679-5597,France,ACTIVE,2024-07-14,29/09/2024,96,"5.968,96",newsletter churned
+215,13,C-050,Freddie,Hermiston,freddie_hermiston@example.org,(855) 942-7279,USA,active,2021-07-12,26/05/2022,55,"3.432,48",lead vip churned
+216,22,C-434,Agnes,Romaguera,agnes_romaguera@example.com,,DE,inactive,2019-08-21,01/06/2023,33,"6.591,12",wholesale dnc partner
+217,6,C-399,Dorcas,,,(802) 719-7661,FR,ACTIVE,2016-10-01,15/07/2019,27,"2.295,78",lead dnc newsletter
+218,6,C-878,Cedric,,,(888) 719-4591,DE,active,2019-11-04,15/03/2024,27,"2.649,77",newsletter
+219,7,C-785,Percival,Ullrich,percival_ullrich32@example.org,(385) 469-2783,United States,active,2018-03-03,31/03/2025,63,"2.746,50",partner vip
+221,21,C-034,Chauncey,Auer-Kemmer,chauncey.auer-kemmer33@example.com,(372) 693-3944,USA,,2016-07-28,04/08/2019,87,"2.450,35",wholesale
+222,17,C-738,Maida,Hettinger,maida.hettinger15@example.net,(534) 226-0754,FR,inactive,2018-04-03,13/03/2019,52,"9.261,80",newsletter
+223,5,C-540,Mitchel,Padberg-Pollich,mitchel.padberg-pollich@example.net,(748) 926-1533,USA,active,INVALID_DATE,INVALID_DATE,37,"5.637,08",newsletter
+224,13,C-457,Garrick,Boyer,garrick_boyer@example.net,(749) 252-5158,Germany,inactive,2017-05-20,27/06/2024,44,"0.000,42",churn news-letter vip
+225,13,C-211,Marcelo,Harber,marcelo.harber@example.com,,Germany,active,2022-12-19,26/09/2025,86,"2.292,56",churn newsletter
+227,5,C-952,Kylie,Wilderman,kylie_wilderman@example.org,(523) 482-9318,Germany,active,2018-04-09,24/03/2021,69,"1.599,06",dnc newsletter
+228,8,C-667,Elisabeth,Welch,,,France,active,2022-06-20,19/11/2023,26,"0.835,45",lead
+229,18,C-591,Crawford,Gislason,crawford_gislason30@example.com,(283) 308-6377,DE,Active,2024-09-15,19/01/2025,53,"6.513,33",lead churn
+230,24,C-740,Rossie,Schiller,rossie.schiller11@example.com,(298) 478-5897,United States,active,2017-09-02,24/08/2019,29,"9.125,71",partner
+231,13,C-265,Delphine,Turcotte,delphine.turcotte@example.org,(852) 504-2153,United States,inactive,2022-08-09,26/08/2025,71,"8.413,88",wholesale
+232,18,C-367,Odie,Krajcik,odie.krajcik24@example.org,,USA,closed,2023-07-19,19/11/2024,76,"7.909,31",partner prospect
+233,8,C-054,Nella,Conn,nella_conn@example.com,(438) 388-9346,germany,,2020-11-18,26/07/2023,22,"9.340,06",news-letter vip churn
+234,17,C-833,Teri,Goodwin,teri_goodwin@example.org,(381) 375-5997,Germany,active,2020-12-31,26/12/2022,27,"2.482,35",do-not-call partner
+235,23,C-330,Ignatius,Jast,ignatius_jast88@example.org,(431) 428-2637,USA,,2016-06-29,27/07/2018,45,"5.875,56",newsletter
+236,17,C-747,Darrin,Volkman,darrin_volkman10@example.com,(947) 630-9911,Germany,active,2019-01-24,10/03/2023,34,"8.634,63",churn lead
+238,4,C-529,,Vandervort,,(394) 702-9146,USA,Active,2018-11-25,04/05/2021,87,"2.457,10",news-letter prospect do-not-call
+239,4,C-502,Mossie,Blanda,mossie.blanda@example.org,(400) 562-0332,US,active,2019-03-29,31/12/2019,74,"3.903,31",lead churned
+240,8,C-130,Efrain,Wisoky,efrain_wisoky81@example.org,(347) 790-5941,U.S.,ACTIVE,2023-04-22,17/07/2025,82,"2.646,87",vip partner
+242,22,C-752,Bradly,Maggio,bradly_maggio84@example.com,(800) 928-8962,United States,,2021-10-28,29/03/2024,87,"8.570,56",b2b vip news-letter
+243,9,C-347,,Lesch,,(642) 878-3327,France,CLOSED,2021-09-09,11/06/2025,57,"6.165,24",prospect
+244,10,C-547,,Pollich,,(295) 987-4924,United States,inactive,2017-10-27,25/07/2020,55,"0.823,07",prospect
+245,1,C-571,Jerrod,Funk,jerrod_funk98@example.net,(691) 802-0909,United States,active,2017-11-01,21/11/2019,85,"9.984,54",prospect b2b churn
+246,7,C-573,Electa,Mann,electa.mann@example.com,(376) 759-2968,United States,active,2020-08-16,18/09/2020,88,"5.178,82",churned
+247,20,C-760,Harmon,Lindgren,harmon_lindgren47@example.org,(619) 452-3500,FR,Active,2016-01-31,26/08/2021,51,"0.437,16",lead
+248,15,C-575,Camren,Legros,camren_legros98@example.org,(685) 661-8117,France,active,2017-10-19,13/01/2022,73,"1.864,60",churned
+249,2,C-714,Abbie,Sporer,abbie_sporer@example.org,(599) 808-6813,GER,active,INVALID_DATE,INVALID_DATE,92,"9.990,97",dnc do-not-call
+250,7,C-400,Chauncey,Rutherford,,(237) 463-5736,FR,active,2017-03-14,22/10/2018,30,"6.851,64",newsletter wholesale
+251,7,C-168,Brandon,Satterfield,brandon.satterfield@example.net,(973) 614-2622,FR,,2022-10-12,13/06/2023,43,"2.026,48",churned
+252,13,C-607,Lorenza,Graham,lorenza.graham@example.org,,DE,inactive,2022-11-02,14/02/2024,39,"1.999,50",do-not-call
+253,3,C-280,Gussie,Bednar,gussie.bednar63@example.org,,germany,ACTIVE,INVALID_DATE,INVALID_DATE,75,"0.215,37",prospect newsletter churned
+254,8,C-817,Marion,Huels,marion.huels5@example.net,(595) 561-0465,Germany,inactive,2018-12-23,03/10/2020,71,"2.783,59",prospect
+255,3,C-124,Estel,Fadel,,(591) 465-4829,France,active,2018-10-09,14/07/2019,44,"1.727,39",news-letter wholesale do-not-call
+256,22,C-328,Dandre,Strosin,,(603) 811-4061,US,inactive,INVALID_DATE,INVALID_DATE,31,"9.467,70",do-not-call
+257,14,C-411,Nolan,Ratke,nolan.ratke52@example.net,(981) 216-1299,DE,,2022-04-15,04/03/2025,87,"3.237,57",wholesale
+258,23,C-416,Mariana,,,(432) 731-6615,Germany,inactive,2024-03-26,23/10/2025,36,"2.764,39",lead
+259,24,C-315,Joey,Kirlin,joey.kirlin11@example.net,(483) 726-5236,germany,closed,2021-11-17,15/04/2022,40,"1.396,18",partner lead churn
+261,12,C-459,Tomasa,Homenick,tomasa_homenick@example.com,(503) 470-6889,U.S.,,2017-10-16,24/08/2021,46,"0.591,82",news-letter churned
+262,18,C-518,Isidro,Emard,isidro.emard@example.com,(712) 724-3992,us,active,2018-08-21,06/11/2023,66,"1.261,32",wholesale
+263,8,C-302,Lorenza,Kozey,lorenza_kozey@example.net,(883) 268-6201,France,active,2016-10-18,20/01/2019,42,"6.410,48",dnc churn wholesale
+264,3,C-047,Dianna,Sanford,dianna_sanford@example.org,(618) 227-0723,FR,CLOSED,2019-10-01,12/05/2022,59,"8.691,71",news-letter prospect
+265,9,C-630,Werner,Bogisich,werner.bogisich81@example.net,(686) 857-4270,FR,CLOSED,2016-08-08,05/11/2018,97,"5.498,57",b2b dnc
+267,6,C-621,Rosalyn,Trantow,rosalyn_trantow70@example.com,(453) 524-0999,DE,closed,2024-03-24,19/02/2025,33,"0.972,63",partner
+268,9,C-172,Andy,Hand,andy.hand4@example.org,(594) 756-8402,DE,Active,2017-08-28,23/12/2020,34,"0.401,09",churned lead
+269,13,C-055,Colby,Kerluke,colby_kerluke35@example.net,(516) 914-6668,FR,Inactive,2016-03-25,02/10/2025,85,"6.429,75",lead news-letter
+271,7,C-566,Lorenzo,Raynor,lorenzo.raynor66@example.net,(329) 798-1606,United States,active,2023-11-03,13/04/2024,20,"6.833,36",do-not-call
+272,23,C-867,Blaise,Romaguera,blaise.romaguera@example.net,(961) 249-9724,DE,inactive,2017-09-07,02/02/2022,84,"0.258,50",churn do-not-call prospect
+273,1,C-580,Unique,VonRueden,unique_vonrueden@example.net,(255) 745-5220,us,,2018-10-18,26/12/2019,73,"8.814,54",prospect
+275,15,C-221,Jude,Johns,jude_johns4@example.com,(837) 735-1381,USA,closed,2016-04-08,22/03/2022,88,"8.681,43",partner vip
+277,18,C-632,Emma,Gottlieb,emma.gottlieb66@example.org,(204) 917-3714,France,inactive,2019-11-07,30/11/2025,83,"8.161,43",wholesale
+278,13,C-828,Laila,Leuschke,,(251) 880-6574,France,ACTIVE,2019-09-10,01/11/2022,42,"4.577,92",partner vip do-not-call
+279,9,C-716,Odie,,,(916) 460-7403,U.S.,closed,2019-03-16,09/06/2025,83,"9.517,74",wholesale partner
+280,14,C-798,Carmine,Kutch,carmine.kutch99@example.net,(491) 640-0176,U.S.,inactive,2018-07-21,15/04/2024,73,"7.275,31",b2b news-letter prospect
+281,8,C-829,Kole,Schultz,kole_schultz@example.net,(463) 450-1600,GER,ACTIVE,2019-08-06,05/08/2021,20,"0.553,97",dnc do-not-call
+282,4,C-759,Trisha,Grady,trisha.grady@example.com,(928) 862-8343,DE,closed,2019-01-28,23/11/2024,58,"8.953,47",news-letter newsletter lead
+284,8,C-683,Adriel,Weber,adriel_weber25@example.com,(368) 480-8580,FR,closed,2017-11-13,04/04/2024,68,"4.311,42",b2b churned news-letter
+285,1,C-358,Everett,Reinger,everett_reinger@example.org,,DE,active,2021-01-21,27/08/2024,99,"7.246,94",wholesale b2b
+286,6,C-468,,Prosacco-Haag,,,Germany,active,2023-04-10,06/07/2025,77,"9.651,23",dnc newsletter
+288,9,C-234,Luther,Ryan,luther.ryan@example.org,(369) 607-3157,DE,CLOSED,2022-03-08,03/07/2024,49,"9.796,72",wholesale
+289,15,C-210,Wilburn,Sporer,wilburn.sporer18@example.org,(622) 582-9947,United States,closed,2023-01-11,26/09/2023,47,"2.843,52",churned lead churn
+291,23,C-836,Leticia,Walker,leticia_walker@example.net,(212) 986-8646,USA,active,2017-04-07,15/12/2017,42,"9.673,85",churned wholesale
+292,10,C-232,Lilian,Cole,,,FRANCE,Active,2022-12-28,26/04/2024,34,"8.067,19",b2b do-not-call
+293,19,C-048,,Hilpert,,(650) 761-2062,USA,active,2018-07-16,02/06/2022,95,"2.179,36",do-not-call churned b2b
+294,16,C-748,Elliott,Turner,elliott_turner67@example.com,(587) 729-7055,FR,inactive,2017-06-27,06/06/2019,44,"5.115,67",churn
+295,23,C-587,Felipa,Hills,felipa.hills@example.org,(729) 576-1565,USA,closed,2020-12-20,22/03/2021,23,"2.155,92",vip churned prospect
+296,4,C-485,Ulises,,,,France,Active,2024-05-17,16/12/2024,83,"8.440,04",churned prospect churn
+297,9,C-884,Ruth,Moen,ruth.moen@example.com,,US,Active,2023-02-10,08/03/2023,65,"0.022,91",churned newsletter
+298,2,C-364,Lavinia,Bins,lavinia_bins@example.net,(666) 721-7356,FRANCE,inactive,2019-07-25,15/10/2019,59,"5.801,99",vip churned do-not-call
+299,1,C-861,Blaze,Casper,blaze.casper63@example.org,(835) 243-5930,US,Active,2020-07-30,26/08/2020,46,"3.858,17",churned
+300,15,C-736,Lauriane,,,(817) 332-3982,USA,Active,2016-01-25,13/07/2021,40,"2.498,76",partner churned vip
+301,1,C-896,Antonetta,Purdy,antonetta_purdy2@example.com,(904) 382-8530,DE,inactive,2024-08-04,09/03/2025,48,"1.368,74",wholesale churned
+302,24,C-913,Alexandrine,McCullough,alexandrine.mccullough75@example.com,(966) 981-4402,United States,actv,2023-05-05,29/10/2023,83,"7.290,80",prospect do-not-call
+303,8,C-802,Keenan,Renner,,(510) 508-6568,US,closed,2023-12-26,20/12/2024,36,"8.055,52",churned
+305,2,C-556,Prince,Carter,prince.carter@example.org,(765) 855-1710,United States,active,2024-02-29,04/09/2025,69,"8.021,02",churned newsletter b2b
+306,14,C-120,Royce,Runolfsdottir,royce_runolfsdottir@example.net,(583) 926-5881,US,Active,2023-06-10,06/10/2025,57,"2.957,97",churn do-not-call
+307,10,C-191,Mylene,Vandervort,,(757) 790-0528,DE,Active,2022-11-25,27/08/2024,24,"1.616,83",news-letter b2b
+308,13,C-222,Rashad,Daniel,rashad.daniel91@example.net,(880) 816-6015,DE,CLOSED,2016-02-23,04/03/2023,82,"0.429,17",do-not-call vip churned
+312,19,C-309,Weston,Dicki,weston_dicki@example.com,(307) 436-6271,France,Active,2023-11-06,02/12/2025,60,"6.223,00",partner b2b
+313,12,C-208,,,,(448) 965-7398,USA,CLOSED,INVALID_DATE,INVALID_DATE,66,"3.656,72",do-not-call dnc
+314,16,C-164,Delphia,Howe-Dooley,delphia.howe-dooley85@example.net,(375) 878-4317,DE,closed,2019-02-14,23/11/2022,78,"3.082,59",prospect news-letter
+315,6,C-290,Billy,,,(510) 400-2134,DE,active,2021-12-29,03/04/2022,23,"0.566,61",news-letter vip partner
+316,14,C-615,Brendan,Marvin,brendan_marvin@example.com,(633) 404-6490,France,closed,2023-02-16,09/10/2024,31,"9.222,51",do-not-call wholesale
+318,19,C-943,,O'Connell,,,Germany,Active,2019-06-21,27/09/2024,39,"6.143,29",wholesale churn do-not-call
+319,3,C-549,Graham,,,(574) 563-2851,FR,ACTIVE,2016-02-17,21/01/2021,78,"7.464,02",lead
+320,14,C-613,Amiya,Stiedemann,,,DE,active,2017-12-12,22/12/2025,29,"2.161,62",do-not-call churn
+321,6,C-958,Heloise,Bruen,heloise.bruen@example.com,(565) 719-7645,United States,,2019-06-28,01/08/2020,33,"8.295,11",partner
+322,12,C-373,Stevie,Wintheiser,stevie.wintheiser83@example.org,(732) 293-7319,US,ACTIVE,2016-11-18,06/03/2023,31,"8.676,85",wholesale
+323,4,C-596,Domenick,Kohler,domenick.kohler94@example.org,(844) 810-6996,DE,active,2024-08-02,14/11/2024,47,"6.887,70",news-letter vip
+324,16,C-043,Clementina,Ledner,clementina.ledner27@example.com,(517) 486-2685,Germany,active,2016-02-27,23/02/2019,55,"9.124,43",churned vip
+325,4,C-670,Americo,Marks,americo.marks@example.com,,U.S.,,2021-09-30,21/04/2024,72,"9.994,37",churn wholesale
+328,21,C-490,Delfina,Koelpin,delfina_koelpin@example.com,,U.S.,active,2016-10-31,02/03/2021,74,"4.566,87",partner lead news-letter
+329,19,C-652,Moses,Gutkowski,moses_gutkowski40@example.org,(516) 760-9739,US,Active,2016-09-29,19/11/2017,73,"0.811,64",wholesale
+331,16,C-924,Willa,Swift,willa_swift13@example.net,,US,Inactive,2021-05-17,21/04/2025,98,"2.780,59",newsletter news-letter dnc
+332,19,C-660,Bethel,Littel,bethel_littel@example.com,,Germany,CLOSED,2021-12-05,11/03/2022,58,"1.519,53",prospect lead
+334,15,C-193,Wesley,Walter,wesley_walter69@example.com,(863) 401-2571,France,closed,2022-06-05,24/01/2023,81,"7.217,67",newsletter dnc prospect
+335,13,C-027,Floy,Fritsch,floy.fritsch14@example.net,(651) 262-4391,U.S.,active,2016-08-10,22/02/2021,35,"5.064,79",lead wholesale
+336,17,C-195,Murphy,Maggio,,(495) 730-1630, DE,,2019-08-11,24/02/2023,76,"6.298,59",wholesale b2b
+337,22,C-957,Braxton,Mertz,braxton_mertz@example.net,(805) 848-6420,DE,,INVALID_DATE,INVALID_DATE,89,"1.853,83",vip
+338,16,C-219,Celestine,Dach,celestine_dach2@example.net,(840) 900-7626,GER,inactive,2021-08-29,18/10/2024,21,"3.449,34",prospect
+344,21,C-627,Garnett,Berge,,(845) 455-4607,Germany,CLOSED,2022-02-27,19/12/2023,65,"4.248,94",churn
+345,14,C-356,Zane,Cassin,zane.cassin@example.net,(726) 918-1083, DE,active,2016-04-11,01/08/2023,81,"8.240,74",vip news-letter
+346,6,C-764,Elissa,Hilll,elissa_hilll63@example.net,(982) 228-9473,Germany,active,2018-12-20,28/06/2023,48,"0.378,15",partner dnc wholesale
+348,6,C-423,Meda,Mosciski,meda_mosciski@example.com,,US,ACTIVE,2023-09-27,15/07/2025,26,"7.349,57",lead
+350,22,C-651,Eliza,Muller,,,U.S.,,2022-01-14,21/02/2025,54,"9.102,71",partner
+351,5,C-603,Christy,Bode,christy.bode@example.com,(266) 338-9546,FRANCE,,2019-07-20,03/01/2021,81,"7.667,41",prospect newsletter vip
+352,22,C-486,Amani,Ernser,amani.ernser0@example.net,,GER,active,INVALID_DATE,INVALID_DATE,66,"8.932,78",wholesale dnc
+356,2,C-666,Robin,Beer,robin_beer@example.net,(636) 566-7347,germany,Active,2016-01-29,09/09/2022,26,"4.198,41",b2b
+357,23,C-777,Braeden,Carter,,(332) 331-3989,FR,active,2021-12-23,20/05/2023,27,"6.154,07",dnc churn newsletter
+358,2,C-825,Bret,Hilll-Hills,bret_hilll-hills3@example.org,(447) 415-9310,DE,actv,2017-03-31,27/12/2017,66,"4.669,72",newsletter
+360,18,C-826,Essie,Kiehn,essie_kiehn87@example.com,(258) 417-3426,US,inactive,INVALID_DATE,INVALID_DATE,94,"5.464,15",vip
+361,13,C-749,Buddy,Beatty,buddy.beatty@example.com,(811) 820-9407,U.S.,active,2023-12-29,24/02/2024,71,"3.626,37",churn
+362,8,C-394,Jada,Stark,jada.stark94@example.org,(343) 449-5093,France,inactive,2018-09-19,05/06/2025,65,"0.011,95",partner churned prospect
+363,21,C-512,Juwan,Gorczany,juwan.gorczany17@example.com,(657) 346-2090,DE,Inactive,2016-01-05,15/10/2020,64,"4.547,32",partner b2b
+366,11,C-015,Lesley,Wuckert,lesley_wuckert@example.com,(703) 661-1529,Germany,Active,2024-01-03,21/07/2024,80,"4.784,47",news-letter b2b
+367,17,C-251,Mamie,Emmerich,mamie.emmerich42@example.net,(401) 554-5969,germany,active,2019-09-07,09/12/2021,27,"0.391,85",churn wholesale
+368,5,C-391,Kenyatta,Weissnat,kenyatta.weissnat@example.net,,US,Active,2023-02-04,30/01/2025,65,"3.167,33",churn b2b vip
+370,11,C-562,Walter,Willms,walter_willms@example.org,(605) 786-3839,germany,,INVALID_DATE,INVALID_DATE,84,"5.048,26",news-letter prospect
+371,8,C-258,Kamren,Botsford,kamren.botsford24@example.com,(777) 601-1281,US,inactive,2022-02-02,07/08/2022,44,"0.665,20",partner prospect
+372,18,C-135,Neoma,Halvorson,neoma.halvorson17@example.com,(841) 473-7432,France,actv,2021-04-27,08/05/2025,42,"1.845,58",prospect dnc
+374,20,C-514,Lavern,Ferry,lavern.ferry@example.org,,FR,active,2021-06-04,24/08/2025,92,"6.407,99",prospect
+375,16,C-142,Yadira,Dickinson,yadira_dickinson70@example.com,(256) 259-0790,USA,,2024-12-19,29/09/2025,68,"2.080,97",churn
+376,6,C-150,Laverna,Rau,laverna_rau@example.net,(534) 914-6693,United States,inactive,2022-01-24,03/03/2024,22,"8.384,86",churn news-letter prospect
+377,10,C-159,Donavon,Franecki,donavon_franecki@example.net,(394) 230-0094,DE,inactive,2017-07-14,19/01/2020,70,"4.118,23",wholesale
+378,19,C-900,Terrill,Reinger,terrill.reinger26@example.net,(869) 563-2312,DE,inactive,2023-02-20,22/11/2023,32,"7.656,70",prospect lead
+379,22,C-209,Gage,,,(320) 991-0110,France,closed,2016-06-21,22/05/2023,97,"7.543,88",newsletter wholesale
+383,18,C-641,Blaze,Lockman,blaze_lockman44@example.com,(253) 215-3903,FRANCE,closed,2019-12-12,25/06/2024,81,"3.525,37",prospect b2b
+384,3,C-121,Alta,Ziemann,alta_ziemann22@example.com,(441) 660-4578,FRANCE,ACTIVE,2021-04-21,21/04/2022,48,"2.002,07",partner
+387,7,C-576,Victoria,Schimmel,victoria.schimmel25@example.net,(226) 997-3582,US,,2020-09-06,17/02/2025,69,"2.310,00",lead
+388,9,C-236,Raven,Johnson,raven.johnson@example.com,(812) 299-1411,FRANCE,Active,2017-06-06,16/10/2025,41,"1.289,54",churned
+389,4,C-703,Albertha,Hauck,albertha_hauck15@example.org,,France,Active,2024-02-26,06/10/2024,99,"7.722,00",lead news-letter
+390,9,C-787,Karson,Becker,karson.becker@example.net,(814) 503-1239,US,active,2021-01-25,01/03/2024,55,"7.181,76",prospect
+391,24,C-770,Sergio,Flatley,sergio_flatley86@example.org,(453) 548-2161,USA,Active,INVALID_DATE,INVALID_DATE,69,"2.832,31",vip partner
+392,1,C-045,Zachariah,Ledner,zachariah.ledner37@example.org,(762) 383-7977,United States,Active,2019-12-11,15/05/2023,99,"3.600,69",lead
+393,24,C-722,Adell,Kub,adell_kub@example.net,(881) 947-9803,United States,active,2021-05-08,01/10/2023,76,"2.575,47",churn news-letter
+394,7,C-449,Chelsea,Lowe,chelsea_lowe20@example.org,(306) 389-1769,USA,CLOSED,2019-09-02,01/12/2021,37,"9.992,51",newsletter partner
+396,22,C-813,Theodora,White-Hauck,theodora.white-hauck@example.com,(511) 981-6391,US,Active,2019-12-17,17/07/2021,37,"7.080,12",wholesale
+397,20,C-871,Alexzander,Sipes,alexzander.sipes50@example.net,,DE,Active,2016-02-12,02/12/2019,72,"5.848,75",prospect wholesale do-not-call
+398,14,C-732,Chauncey,Wintheiser,chauncey.wintheiser89@example.com,(581) 259-1438,U.S.,inactive,2018-02-14,27/03/2025,42,"4.264,48",lead b2b churned
+400,20,C-742,Tad,Ledner,tad_ledner@example.org,(924) 503-6130,USA,,2024-02-22,08/09/2024,73,"4.646,05",churned news-letter churn
+403,2,C-938,Rashawn,Koelpin,rashawn_koelpin@example.org,(766) 764-0201,FRANCE,closed,2017-10-30,01/09/2022,22,"5.646,01",dnc vip
+404,14,C-118,Noble,Mayert,noble.mayert93@example.net,(385) 998-8920,US,active,2021-01-29,22/07/2023,81,"9.715,95",churn churned
+405,18,C-945,Rudy,Krajcik,rudy.krajcik81@example.com,(500) 708-4295,USA,,2021-11-10,14/08/2023,53,"2.544,58",prospect wholesale b2b
+406,23,C-198,Oleta,Turcotte,oleta.turcotte58@example.com,(648) 257-7619,France,Active,2019-11-07,19/09/2024,100,"8.647,83",partner churned
+407,3,C-238,Andre,Wilderman,andre.wilderman@example.com,(682) 841-8342,United States,inactive,2016-09-12,21/09/2025,100,"2.561,20",news-letter
+408,8,C-592,Jean,Blick,jean.blick@example.net,,germany,active,2017-09-04,28/02/2025,42,"3.639,46",dnc news-letter prospect
+409,1,C-781,Jerrell,,,(438) 962-6611,Germany,,2019-07-30,16/09/2022,89,"7.274,32",do-not-call b2b vip
+410,12,C-521,Candido,D'Amore,candido.damore41@example.net,(552) 687-4746,USA,active,2017-07-25,30/10/2022,22,"5.009,61",dnc
+411,4,C-979,Michael,,,(925) 746-2558,France,Active,2021-07-04,24/09/2022,38,"0.576,20",prospect lead
+413,4,C-123,Devonte,Jacobs,devonte_jacobs@example.org,(472) 836-2678,Germany,active,INVALID_DATE,INVALID_DATE,87,"6.815,59",churn dnc
+414,14,C-086,Elisa,Lockman,elisa_lockman@example.net,(207) 858-8558,USA,active,2021-03-21,28/01/2025,86,"4.868,75",news-letter b2b churn
+415,10,C-257,Cale,Gerlach,cale_gerlach@example.com,(838) 680-7145,FRANCE,ACTIVE,INVALID_DATE,INVALID_DATE,24,"9.690,04",dnc b2b newsletter
+417,6,C-035,Art,,,(377) 393-9587,United States,closed,2017-06-16,22/05/2024,89,"3.114,22",partner news-letter
+418,22,C-036,Drew,Wunsch,drew.wunsch52@example.com,(998) 596-1217,US,closed,2016-10-16,27/11/2018,42,"0.807,97",news-letter wholesale b2b
+420,13,C-162,Vivien,,,(788) 576-8109,US,ACTIVE,2017-07-01,07/03/2020,94,"1.085,26",churned churn
+422,18,C-697,Henderson,,,(346) 955-0805,FRANCE,active,2018-11-10,05/12/2023,43,"6.611,72",news-letter lead
+423,16,C-287,Abe,Terry,abe_terry@example.net,(314) 868-2222,FRANCE,inactive,2017-12-25,02/09/2021,27,"3.945,75",newsletter
+425,8,C-961,Rey,Beer,rey_beer29@example.net,(485) 616-1404, DE,Active,2018-10-03,08/05/2021,55,"3.014,11",prospect news-letter
+426,10,C-661,Osbaldo,Spencer,osbaldo.spencer@example.org,(778) 936-1199,US,active,2019-06-27,23/09/2023,72,"4.838,95",churn lead news-letter
+427,23,C-922,Mark,Kuvalis,mark_kuvalis33@example.net,(842) 630-7119,USA,inactive,2016-10-19,21/09/2020,73,"9.863,14",b2b partner
+428,19,C-839,Xander,Gerlach,xander_gerlach@example.net,(443) 306-8223,Germany,CLOSED,2020-07-08,05/10/2022,30,"7.070,56",news-letter do-not-call
+430,12,C-517,Chad,Bednar-Barton,chad.bednar-barton73@example.com,(497) 675-7631,Germany,active,2023-12-22,22/04/2024,21,"1.440,36",b2b prospect churned
+431,13,C-508,Garrett,Toy,garrett_toy@example.net,(629) 839-1996,FRANCE,Inactive,2020-11-22,08/11/2022,61,"8.551,50",do-not-call
+432,3,C-574,Eleanora,Donnelly,eleanora_donnelly@example.com,(556) 624-2229,France,Inactive,2019-08-22,11/11/2023,65,"1.725,05",newsletter news-letter dnc
+433,20,C-541,Rodger,Kulas,rodger.kulas98@example.org,,FR,closed,2023-05-03,19/06/2025,82,"9.589,83",vip news-letter lead
+434,3,C-351,Larue,Ritchie,larue_ritchie@example.com,(413) 805-8544,US,closed,2024-04-19,30/04/2025,98,"6.244,05",churned partner churn
+436,7,C-858,Angus,Ebert,angus.ebert@example.org,(672) 431-3273,US,closed,2022-03-17,27/01/2024,60,"4.924,62",partner churned vip
+437,11,C-907,Sheri,Stark,sheri_stark@example.org,(755) 754-3662,DE,active,2016-08-07,09/05/2020,69,"8.316,92",churn
+439,9,C-698,Hector,O'Reilly,hector_oreilly@example.com,(349) 654-5819,DE,inactive,2020-04-07,02/09/2021,57,"3.144,93",wholesale
+440,20,C-067,Bria,Runolfsson,bria_runolfsson@example.org,(339) 427-4626,DE,closed,2017-10-08,17/02/2021,63,"8.216,18",prospect
+441,8,C-983,Sara,Kuvalis,sara_kuvalis@example.org,(661) 297-0711,U.S.,active,2024-05-03,23/09/2024,31,"1.685,72",churned dnc wholesale
+443,20,C-868,Lindsey,,,(472) 483-2263,GER,ACTIVE,2018-10-25,06/01/2022,84,"4.324,85",churned dnc do-not-call
+447,15,C-376,Palma,Treutel,,(268) 577-9097,France,active,2021-05-10,20/03/2023,83,"3.912,53",do-not-call partner churned
+448,11,C-584,Carlie,Keeling,carlie_keeling@example.org,(430) 583-6091,US,active,2020-01-01,18/10/2024,58,"8.260,96",newsletter do-not-call
+449,13,C-407,Roxane,Pacocha,,(217) 991-5871,germany,active,2023-11-20,20/03/2024,47,"9.573,34",wholesale newsletter
+451,17,C-377,Will,Cassin,will_cassin88@example.com,(888) 475-9510,US,active,2024-03-05,26/05/2025,45,"4.206,62",lead vip
+452,4,C-346,Camila,Gibson,camila_gibson66@example.net,(459) 859-1082,France,ACTIVE,2016-11-21,06/10/2024,100,"3.553,92",b2b wholesale news-letter
+454,20,C-406,Margret,Reichert,margret.reichert59@example.com,,USA,closed,2020-05-18,30/11/2023,30,"7.844,47",churn partner
+456,4,C-171,Andreanne,Bruen,andreanne.bruen@example.net,(352) 964-5084,France,active,2023-11-21,30/12/2024,72,"5.221,16",churn
+457,19,C-949,Mossie,,,,United States,active,2020-10-06,01/11/2025,43,"9.318,02",newsletter dnc
+458,23,C-253,Robin,Gutmann,robin.gutmann@example.net,(359) 918-9770,FR,Inactive,2017-04-06,27/01/2023,84,"7.594,49",churned wholesale news-letter
+461,5,C-192,Juston,Lakin,juston.lakin6@example.org,(917) 523-3571,USA,active,2020-02-22,16/10/2023,22,"5.984,44",churned
+462,17,C-174,David,Bayer,david_bayer@example.org,(580) 439-3393,France,Active,2023-08-12,20/02/2025,21,"2.381,70",b2b
+463,23,C-341,,Funk,,(487) 631-8126,germany,active,INVALID_DATE,INVALID_DATE,37,"8.963,43",newsletter wholesale
+465,19,C-733,Anabel,Klocko,anabel_klocko@example.net,(803) 752-8389,US,active,2019-05-04,17/06/2025,73,"2.566,24",b2b
+466,23,C-392,Reggie,Olson,reggie.olson@example.com,(320) 478-5857,germany,active,2017-04-30,31/07/2022,57,"1.176,16",lead
+468,19,C-012,Vallie,Rowe,vallie.rowe28@example.org,(293) 776-3112,DE,,2022-02-07,22/12/2023,53,"8.263,23",vip do-not-call
+469,5,C-946,Camille,Thompson,camille_thompson@example.net,(334) 222-4981,DE,active,2020-06-27,20/11/2022,52,"2.814,29",dnc newsletter
+472,10,C-877,Terrence,Wehner,terrence_wehner@example.org,(830) 715-1635,GER,inactive,2019-11-22,07/03/2023,53,"5.527,49",prospect lead
+474,20,C-933,Elisa,Roob,elisa.roob@example.org,(723) 465-9700,FR,Active,2024-01-17,14/12/2025,85,"9.201,67",do-not-call prospect
+475,23,C-271,Bryan,Borer,,(487) 325-5077,FR,ACTIVE,2017-07-26,27/08/2019,46,"8.407,31",wholesale
+476,3,C-631,Dorian,Rosenbaum,dorian.rosenbaum@example.net,(592) 290-0329,USA,closed,INVALID_DATE,INVALID_DATE,33,"9.648,42",news-letter newsletter
+480,13,C-357,,Keebler,,(963) 367-1259,FR,,2023-12-11,29/10/2024,82,"9.670,43",b2b
+484,8,C-735,Reid,Runolfsdottir,reid_runolfsdottir@example.com,(269) 280-3591,USA,Active,2022-11-03,22/01/2025,44,"4.091,18",news-letter vip dnc
+485,8,C-879,Daphne,Breitenberg,daphne_breitenberg60@example.org,(970) 858-5598,DE,Active,2023-03-05,09/08/2023,66,"0.937,91",vip prospect lead
+486,14,C-220,Matteo,Ullrich,matteo.ullrich21@example.net,(496) 775-7012,USA,,2023-12-29,27/03/2025,47,"2.531,48",news-letter dnc
+487,14,C-926,Scottie,Kihn,scottie.kihn@example.org,(921) 433-9526,U.S.,,2017-01-26,04/06/2025,21,"0.096,79",b2b dnc wholesale
+490,15,C-565,Fannie,,,(480) 853-0352,United States,ACTIVE,2018-10-05,06/12/2022,62,"1.742,14",do-not-call churned newsletter
+491,13,C-404,Alexanne,Koelpin,alexanne_koelpin92@example.org,(472) 807-8744,USA,active,2020-08-09,04/08/2024,28,"8.747,15",news-letter wholesale churn
+493,9,C-914,Sabryna,Ruecker,sabryna_ruecker1@example.org,(759) 531-6554,DE,Active,2024-11-11,30/01/2025,76,"3.533,07",churned newsletter dnc
+496,20,C-322,Quinten,Beier,quinten_beier@example.com,(225) 585-3272,United States,Active,2022-07-27,07/11/2023,34,"9.955,73",wholesale lead
+497,12,C-386,Constance,Fay,constance.fay@example.org,(232) 977-5730,US,actv,2016-02-03,25/08/2023,27,"6.098,96",dnc prospect wholesale
+498,8,C-370,Ova,Toy,,(492) 721-5408,Germany,active,2021-07-28,02/12/2025,90,"1.332,91",newsletter dnc
