@@ -26,7 +26,6 @@ Result of the project is an optimized ETL-pipeline built using Databricks declar
 #### Quality checks:
 ✅ Completeness
 ✅ Uniqueness
-✅ Referential Integrity
 ✅ Validity
 ✅ Business Logics
 #### Table Facts
