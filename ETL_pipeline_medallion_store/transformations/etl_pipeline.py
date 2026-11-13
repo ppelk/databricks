@@ -5,9 +5,12 @@ Silver: data quality checks (uniqueness, referential integrity, validity),
     derive new features, join tables.
 Gold: business logic checks and the date dimension.
 """
-from pyspark.sql.functions import *
+import pyspark
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import * 
 from pyspark import pipelines as dp
 import json
+import time
 
 # Declare file path and file names (stored in config.json)
 filepath = "/Workspace/Users/pepelk@utu.fi/databricks/ETL_pipeline_medallion_store/data"
@@ -176,3 +179,32 @@ def gold_dim_date():
         when(dayofweek("calendar_date").isin(1, 7), True).otherwise(False).alias("is_weekend")
     )
     return dim_date
+
+
+@dp.table(
+        name="gold.fact_order",
+        comment="Gold business-logic validated data",
+        table_properties={
+            "quality": "gold"
+        }
+    )
+def gold_fact_order():
+    orders = spark.table("silver.orders")
+    # Business logic checks: keep only rows passing every rule
+    orders = orders.where(
+        # Batch id is an integer number
+        col("batch_id").isNotNull()
+        # Load date within normal boundaries
+        & col("dw_load_ts").between(to_date(lit("2015-01-01")), current_date())
+        # Order date not in the future
+        & (col("ordered_at").isNull() | (col("ordered_at") <= current_date()))
+        # Amount within reasonable boundaries
+        & (col("amount").isNull() | col("amount").between(-100000, 100000))
+        # Quantity not negative
+        & (col("quantity").isNull() | (col("quantity") >= 0))
+        # Customer code must not be null
+        & col("customer_code").isNotNull()
+    )
+    # Drop the raw text column: ordered_at holds the parsed date
+    orders = orders.drop("ordered_at_text")
+    return orders
